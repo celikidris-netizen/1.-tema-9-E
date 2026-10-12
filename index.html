@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="tr"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261012-04-4942f96","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/486a2977e39ad380.telemetry_sdk.js" integrity="sha512-6RGhG0lZ6QriXSp9fyZ35krENb9O9A9i6UklGaEPAGRJqlg443gszr5+rhcE8tJU48EjVhUuSuTu4g7tRHuFHA=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>9. Sınıf Edebiyat - 1. Tema: Sözün İnceliği</title>
+  <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #e74c3c;
+            --accent: #3498db;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #2c3e50;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+        }
+
+        .slide-counter {
+            font-size: 1.1rem;
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+        }
+
+        .stage {
+            flex: 1;
+            position: relative;
+            overflow-y: auto;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .slide {
+            display: none;
+            width: 100%;
+            max-width: 1100px;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            box-sizing: border-box;
+            animation: fadeIn 0.4s ease-in-out;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h2 {
+            color: var(--secondary);
+            border-bottom: 3px solid var(--secondary);
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        h3 {
+            color: var(--accent);
+            margin-top: 25px;
+            font-size: 1.4rem;
+        }
+
+        p, li {
+            font-size: 1.15rem;
+            line-height: 1.7;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .interactive-card {
+            background: #edf2f7;
+            border-left: 5px solid var(--accent);
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .interactive-card:hover {
+            background: #e2e8f0;
+        }
+
+        .answer {
+            display: none;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px dashed #cbd5e0;
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1.05rem;
+        }
+
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f7fafc;
+        }
+
+        .controls {
+            background: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .btn {
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .btn:disabled {
+            background-color: #cbd5e0;
+            cursor: not-allowed;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .evaluation-grid {
+            display: grid;
+            gap: 16px;
+        }
+
+        .evaluation-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-left: 5px solid var(--accent);
+            border-radius: 10px;
+            padding: 18px 20px;
+            box-shadow: 0 4px 12px rgba(44,62,80,0.06);
+        }
+
+        .evaluation-question {
+            font-weight: 700;
+            color: var(--primary);
+            line-height: 1.5;
+            cursor: pointer;
+        }
+
+        .evaluation-options, .matching-grid, .classification-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px;
+            margin: 12px 0;
+        }
+
+        .evaluation-option, .answer-field {
+            background: #f1f5f9;
+            border: 1px solid #cbd5e0;
+            border-radius: 6px;
+            padding: 9px 12px;
+        }
+
+        .show-answer {
+            margin-top: 12px;
+            padding: 8px 14px;
+            font-size: .9rem;
+        }
+
+        .evaluation-answer {
+            display: none;
+            margin-top: 12px;
+            padding: 12px;
+            background: #f0fdf4;
+            border-left: 4px solid #27ae60;
+            border-radius: 5px;
+            color: #218c4b;
+            line-height: 1.55;
+        }
+
+        @media (max-width: 700px) {
+            .evaluation-options, .matching-grid, .classification-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+  <style>
+        body { height: calc(100 * min(var(--vh, 1vh), 1vh)); width: 100%; }
+        @media (max-width: 700px) {
+            header { padding: 12px 16px; gap: 12px; }
+            header h1 { font-size: 1rem; }
+            .slide-counter { flex-shrink: 0; font-size: .85rem; padding: 5px 9px; }
+            .stage { padding: 16px; }
+            .slide { padding: 22px; }
+            .grid-2 { grid-template-columns: 1fr; }
+            .controls { padding: 12px 16px; gap: 10px; }
+            .controls span { font-size: .75rem; text-align: center; }
+            .btn { padding: 10px 12px; }
+            table { display: block; overflow-x: auto; }
+        }
+    </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/6739934784996595.data_sdk.js" type="text/javascript" integrity="sha512-aHih8MxSNczT9xRyOUq01Vmx230URMZj+8SR3fa6IZ4ScQSlODcJ0UFHLNv4yeUNpouT9N1Dq//VhTGgYsIH3g=="></script>
+  <script src="/_sdk/f35087cf86290a33.editing_sdk.js" type="text/javascript" integrity="sha512-0mbfNVTwbL0jObU6oAxxR5ze1N+oYmbuEj9U1b4T49vSBeEkZoZHWPh6ZDT5m6/VH3g3YGCJo2G9/z6qkXc02w=="></script>
+  <script src="/_sdk/056c9619db603d29.resizing_sdk.js" type="text/javascript" integrity="sha512-M+H3L4m9QQRx/o9ibl2pgmK12j+m7IzyXqQYPu51UsEwWvMSULNPd1Mc6Ou1S2PXfxZHFCe8Axqt+diUPCpRiw=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(248, 249, 250); color: rgb(44, 62, 80);">
+  <header data-template-id="page-header" class="canva-header" style="background: rgb(44, 62, 80); color: rgb(255, 255, 255);">
+   <h1 data-template-id="header-title" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 22px;"> Türk Dili ve Edebiyatı | 1. Tema: Sözün İnceliği</h1>
+   <div class="slide-counter canva-text" id="slideCounter" data-template-id="slide-counter" style="background: rgba(255, 255, 255, 0.2); font-size: 18px;">
+    Slayt 1 / 12
+   </div>
+  </header>
+  <main class="stage">
+   <!-- SLİDE 1 -->
+   <div class="slide active canva-card" data-template-id="slide-1" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s1-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">1. Edebiyat Nedir &amp; Kökeni</h2>
+    <p><strong data-template-id="s1-definition-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Edebiyat:</strong> <span data-template-id="s1-definition" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Duygu ve düşüncelerin estetik bir biçimde, yani insanlarda güzellik duygusu uyandıracak şekilde anlatılması sanatıdır[cite: 2]. Dil aracılığıyla sözlü ya da yazılı olarak ortaya konur[cite: 2].</span></p>
+    <h3 data-template-id="s1-features-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Edebiyat Sanatının Özellikleri</h3>
+    <ul>
+     <li data-template-id="s1-feature-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Dili bir araç olmaktan çıkarıp bir büyüye dönüştürür[cite: 2].</li>
+     <li data-template-id="s1-feature-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Sözcükleri bir ressamın fırçası, bir bestecinin notası gibi kullanır[cite: 2].</li>
+     <li data-template-id="s1-feature-3" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Sözlü gelenekte destan/masal; yazılı gelenekte şiir, hikâye, roman ile hayat bulur[cite: 2].</li>
+    </ul>
+    <h3 data-template-id="s1-origin-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Edebiyat Sözcüğünün Kökeni</h3>
+    <ul>
+     <li><span data-template-id="s1-origin-1a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Arapça </span><strong data-template-id="s1-origin-1b" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">"edep"</strong> <span data-template-id="s1-origin-1c" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">(ahlak, terbiye, nezaket) kökünden gelir[cite: 2].</span></li>
+     <li><span data-template-id="s1-origin-2a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Edebiyat sözcüğünü bugünkü anlamıyla ilk kez Tanzimat sanatçısı </span><strong data-template-id="s1-origin-2b" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Şinasi</strong> <span data-template-id="s1-origin-2c" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">kullanmıştır[cite: 2].</span></li>
+    </ul>
+   </div><!-- SLİDE 2 -->
+   <div class="slide canva-card" data-template-id="slide-2" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s2-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">2. Edebiyat: Sanat mı, Bilim mi?</h2>
+    <div class="grid-2">
+     <div style="background: #eef6fc; padding: 20px; border-radius: 8px;" data-template-id="s2-art-panel" class="canva-panel">
+      <h3 data-template-id="s2-art-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">1) Edebiyat Bir Sanattır</h3>
+      <p data-template-id="s2-art-description" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Duygu ve düşünceleri özgün, estetik şekilde sunar[cite: 2]. Sözcükleri ressamın renkleri gibi kullanır[cite: 2].</p>
+      <p><em data-template-id="s2-art-example-label" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Örnek:</em> <span data-template-id="s2-art-example" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Cemal Süreya'nın şiirleri[cite: 2].</span></p>
+     </div>
+     <div style="background: #fef5f5; padding: 20px; border-radius: 8px;" data-template-id="s2-science-panel" class="canva-panel">
+      <h3 data-template-id="s2-science-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">2) Edebiyat Bir Bilimdir</h3>
+      <p data-template-id="s2-science-description" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Ortaya çıkan eserleri inceleyen, sınıflandıran ve yorumlayan bilgi alanıdır[cite: 3].</p>
+      <p><em data-template-id="s2-science-example-label" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Örnek:</em> <span data-template-id="s2-science-example-prefix" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">A. H. Tanpınar'ın </span><i data-template-id="s2-science-example-book" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">19. Asır Türk Edebiyatı Tarihi</i><span data-template-id="s2-science-example-cite" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">[cite: 3].</span></p>
+     </div>
+    </div>
+    <h3 data-template-id="s2-activity-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;"> Akıllı Tahta Etkinliği (Açmak İçin Tıklayın)</h3>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s2-card-1" style="background: rgb(237, 242, 247);"><span data-template-id="s2-question-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Yahya Kemal'in şiiri</span>
+     <div class="answer canva-text" data-template-id="s2-answer-1" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Cevap: SANAT[cite: 3]</div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s2-card-2" style="background: rgb(237, 242, 247);"><span data-template-id="s2-question-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">19. Yüzyıl Şiiri Üzerine Bir İnceleme</span>
+     <div class="answer canva-text" data-template-id="s2-answer-2" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Cevap: BİLİM[cite: 3]</div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s2-card-3" style="background: rgb(237, 242, 247);"><span data-template-id="s2-question-3" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Oğuz Atay'ın romanları</span>
+     <div class="answer canva-text" data-template-id="s2-answer-3" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Cevap: SANAT[cite: 3]</div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s2-card-4" style="background: rgb(237, 242, 247);"><span data-template-id="s2-question-4" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Divan edebiyatı terimlerinin açıklanması</span>
+     <div class="answer canva-text" data-template-id="s2-answer-4" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Cevap: BİLİM[cite: 3]</div>
+    </div>
+   </div><!-- SLİDE 3 -->
+   <div class="slide canva-card" data-template-id="slide-3" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s3-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">3. Metin İncelemesi: "Sanat" (Faruk Nafiz Çamlıbel)</h2>
+    <div style="background: #fff8e1; padding: 15px; border-left: 4px solid #f1c40f; margin-bottom: 20px;" data-template-id="s3-poem-panel" class="canva-panel">
+     <p><em><span data-template-id="s3-poem-line-1" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Yalnız senin gezdiğin bahçede açmaz çiçek,</span><br><span data-template-id="s3-poem-line-2" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Bizim diyarımızda bin bir baharı saklar!</span><br><span data-template-id="s3-poem-line-3" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Kolumuzdan tutarak sen istersen bizi çek</span><br><span data-template-id="s3-poem-line-4" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">İncinir düz caddede dağda gezen ayaklar...</span></em><span data-template-id="s3-poem-cite" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">[cite: 4]</span></p>
+    </div>
+    <h3 data-template-id="s3-activity-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Tartışma Soruları (Tahtada Dokunarak Cevapları Açınız)</h3>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s3-card-1" style="background: rgb(237, 242, 247);"><strong data-template-id="s3-question-1" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">1. "Yalnız senin gezdiğin bahçe" ile kastedilen nedir?</strong>
+     <div class="answer canva-text" data-template-id="s3-answer-1" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Batı tarzı, memleket gerçeklerinden uzak, bireysel sanat anlayışıdır[cite: 4].</div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s3-card-2" style="background: rgb(237, 242, 247);"><strong data-template-id="s3-question-2" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">2. "Bin bir bahar" ifadesi Anadolu'nun hangi özelliğine işaret eder?</strong>
+     <div class="answer canva-text" data-template-id="s3-answer-2" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Anadolu'nun zengin kültürüne, keşfedilmemiş güzelliklerine ve yerli değerlerine[cite: 4].</div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s3-card-3" style="background: rgb(237, 242, 247);"><strong data-template-id="s3-question-3" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">3. Şiirde karşı karşıya gelen iki sanat anlayışı nedir?</strong>
+     <div class="answer"><span data-template-id="s3-answer-3a" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Batıcı / Bireysel Sanat Anlayışı </span><strong data-template-id="s3-answer-3b" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">VS</strong> <span data-template-id="s3-answer-3c" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Memleketçi / Toplumcu Sanat Anlayışı[cite: 4].</span>
+     </div>
+    </div>
+   </div><!-- SLİDE 4 -->
+   <div class="slide canva-card" data-template-id="slide-4" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s4-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">4. Edebiyatın Bilim ve Sanatla İlişkisi</h2>
+    <h3 data-template-id="s4-sciences-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Bilim Dallarıyla İlişkisi</h3>
+    <ul>
+     <li><strong data-template-id="s4-history-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Tarih:</strong> <span data-template-id="s4-history" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Dönemlerin ruhunu yansıtır, tarihçilere kaynaklık eder (Destanlar, tarihî romanlar)[cite: 6].</span></li>
+     <li><strong data-template-id="s4-psychology-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Psikoloji:</strong> <span data-template-id="s4-psychology-a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Karakterlerin iç dünyasını ve ruhsal bunalımlarını derinleştirir (Örn: </span><i data-template-id="s4-psychology-book" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Dokuzuncu Hariciye Koğuşu</i><span data-template-id="s4-psychology-b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">)[cite: 6].</span></li>
+     <li><strong data-template-id="s4-sociology-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Sosyoloji:</strong> <span data-template-id="s4-sociology" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Toplumun yapısını, gelenekleri ve değişimleri yansıtır[cite: 6].</span></li>
+     <li><strong data-template-id="s4-philosophy-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Felsefe:</strong> <span data-template-id="s4-philosophy-a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Varoluş kaygılarını ve sorgulamaları işler (Örn: </span><i data-template-id="s4-philosophy-book" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Sofie'nin Dünyası</i><span data-template-id="s4-philosophy-b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">)[cite: 6].</span></li>
+     <li><strong data-template-id="s4-geography-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Coğrafya:</strong> <span data-template-id="s4-geography-a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Mekânı duyguların taşıyıcısı yapar (Örn: </span><i data-template-id="s4-geography-book" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Frankfurt Seyahatnamesi</i><span data-template-id="s4-geography-b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">)[cite: 6].</span></li>
+    </ul>
+    <h3 data-template-id="s4-arts-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Güzel Sanatların Sınıflandırılması</h3>
+    <table class="canva-table" data-template-id="s4-table" style="background: rgb(255, 255, 255);">
+     <tbody>
+      <tr>
+       <th data-template-id="s4-th-1" class="canva-text" style="background: rgb(44, 62, 80); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">İşitsel (Fonetik) Sanatlar</th>
+       <th data-template-id="s4-th-2" class="canva-text" style="background: rgb(44, 62, 80); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Görsel (Plastik) Sanatlar</th>
+       <th data-template-id="s4-th-3" class="canva-text" style="background: rgb(44, 62, 80); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Dramatik (Ritmik) Sanatlar</th>
+      </tr>
+      <tr>
+       <td><span data-template-id="s4-td-1a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Edebiyat[cite: 8]</span><br><span data-template-id="s4-td-1b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Müzik[cite: 8]</span></td>
+       <td><span data-template-id="s4-td-2a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Resim[cite: 8]</span><br><span data-template-id="s4-td-2b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Heykel[cite: 8]</span><br><span data-template-id="s4-td-2c" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Mimari[cite: 8]</span></td>
+       <td><span data-template-id="s4-td-3a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Tiyatro, Sinema[cite: 8]</span><br><span data-template-id="s4-td-3b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Dans, Bale, Opera[cite: 8]</span></td>
+      </tr>
+     </tbody>
+    </table>
+    <p><strong data-template-id="s4-conclusion-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Ayrılan En Önemli Yönü:</strong> <span data-template-id="s4-conclusion-a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Edebiyatın temel malzemesi </span><em data-template-id="s4-conclusion-word" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">sözcükler</em><span data-template-id="s4-conclusion-b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">dir ve dil çok katmanlı bir yapıya sahiptir[cite: 8].</span></p>
+   </div><!-- SLİDE 5 -->
+   <div class="slide canva-card" data-template-id="slide-5" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s5-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">5. Sözcükte Anlam Özellikleri</h2>
+    <ul>
+     <li><strong data-template-id="s5-single-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Tek Anlamlılık:</strong> <span data-template-id="s5-single-a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Anlam genişlemesi geçirmeyen sözcüklerdir (</span><i data-template-id="s5-single-example" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Tuğla, termometre, pantolon</i><span data-template-id="s5-single-b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">)[cite: 10].</span></li>
+     <li><strong data-template-id="s5-multiple-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Çok Anlamlılık:</strong> <span data-template-id="s5-multiple-a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Temel anlamın yanında farklı kavramları karşılar hâle gelmedir (</span><i data-template-id="s5-multiple-example" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">"Bırakmak": yere koymak, ertelemek, miras kalması...</i><span data-template-id="s5-multiple-b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">)[cite: 10].</span></li>
+    </ul>
+    <h3 data-template-id="s5-types-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Anlam Türleri</h3>
+    <div class="grid-2">
+     <div style="border: 1px solid rgb(204, 204, 204); padding: 15px; border-radius: 5px; background: rgb(255, 255, 255);" data-template-id="s5-basic-panel" class="canva-panel">
+      <h4 data-template-id="s5-basic-title" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;"> Temel (İlk/Sözlük) Anlam</h4>
+      <p><span data-template-id="s5-basic-description" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Aklımıza gelen ilk anlamdır[cite: 11].</span><br><em data-template-id="s5-basic-example" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">"Duvara astığım tablo yere düştü."</em><span data-template-id="s5-basic-cite" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">[cite: 11]</span></p>
+     </div>
+     <div style="border: 1px solid rgb(204, 204, 204); padding: 15px; border-radius: 5px; background: rgb(255, 255, 255);" data-template-id="s5-figurative-panel" class="canva-panel">
+      <h4 data-template-id="s5-figurative-title" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;"> Mecaz Anlam</h4>
+      <p><span data-template-id="s5-figurative-description" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Gerçek anlamdan tamamen uzaklaşarak kazanılan yeni anlamdır[cite: 11].</span><br><em data-template-id="s5-figurative-example" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">"Uçağı kaçırınca biletlerimiz yandı."</em> <span data-template-id="s5-figurative-note" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">(Geçersiz oldu)[cite: 11]</span></p>
+     </div>
+    </div>
+    <div style="border: 1px solid rgb(204, 204, 204); padding: 15px; border-radius: 5px; margin-top: 15px; background: rgb(255, 255, 255);" data-template-id="s5-term-panel" class="canva-panel">
+     <h4 data-template-id="s5-term-title" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;"> Terim Anlam</h4>
+     <p><span data-template-id="s5-term-description" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Bilim, spor, sanat veya meslek alanına ait özel kavramlardır[cite: 12].</span><br><em data-template-id="s5-term-example" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">"Üçgenin iç açıları toplamı 180°dir."</em><span data-template-id="s5-term-cite" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">[cite: 12]</span></p>
+    </div>
+   </div><!-- SLİDE 6 -->
+   <div class="slide canva-card" data-template-id="slide-6" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s6-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">6. Edebî Söyleyiş - Günlük Söyleyiş</h2>
+    <table class="canva-table" data-template-id="s6-table" style="background: rgb(255, 255, 255);">
+     <tbody>
+      <tr>
+       <th data-template-id="s6-th-1" class="canva-text" style="background: rgb(44, 62, 80); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Özellik</th>
+       <th data-template-id="s6-th-2" class="canva-text" style="background: rgb(44, 62, 80); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Günlük Söyleyiş</th>
+       <th data-template-id="s6-th-3" class="canva-text" style="background: rgb(44, 62, 80); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Edebî Söyleyiş</th>
+      </tr>
+      <tr>
+       <td><strong data-template-id="s6-row-1-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Amaç</strong></td>
+       <td data-template-id="s6-row-1-daily" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Bilgi/veri aktarmak[cite: 16]</td>
+       <td data-template-id="s6-row-1-literary" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Etkilemek, estetik haz yaratmak[cite: 16]</td>
+      </tr>
+      <tr>
+       <td><strong data-template-id="s6-row-2-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Anlatım Biçimi</strong></td>
+       <td data-template-id="s6-row-2-daily" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Açık, net, doğrudan[cite: 16]</td>
+       <td data-template-id="s6-row-2-literary" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Sezdirici, çağrışıma açık[cite: 16]</td>
+      </tr>
+      <tr>
+       <td><strong data-template-id="s6-row-3-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Sözcük Kullanımı</strong></td>
+       <td data-template-id="s6-row-3-daily" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Gerçek anlamda[cite: 16]</td>
+       <td data-template-id="s6-row-3-literary" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Mecaz, imge, söz sanatları[cite: 16]</td>
+      </tr>
+     </tbody>
+    </table>
+    <h3 data-template-id="s6-activity-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Karşılaştırma Etkinliği (Açmak için dokun)</h3>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s6-card-1" style="background: rgb(237, 242, 247);"><span data-template-id="s6-question-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">"Güneş batıyor." / "Güneş, ufkun ardına kızıl bir hüzün perdesi çekiyordu."</span>
+     <div class="answer canva-text" data-template-id="s6-answer-1" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">İlki Günlük Söyleyiş, ikincisi İmge yüklü Edebî Söyleyiştir[cite: 2].</div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s6-card-2" style="background: rgb(237, 242, 247);"><span data-template-id="s6-question-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">"Çok yoruldum, eve gidip dinleneceğim." / "Ayaklarım, günün yükünü taşıyan kırgın bir sessizlikte sürükleniyordu."</span>
+     <div class="answer canva-text" data-template-id="s6-answer-2" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">İkinci cümle mecaz ve çağrışım barındırdığı için Edebî Söyleyiştir[cite: 16].</div>
+    </div>
+   </div><!-- SLİDE 7 -->
+   <div class="slide canva-card" data-template-id="slide-7" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s7-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">7. İmge Nedir &amp; Neden Kullanılır?</h2>
+    <p><strong data-template-id="s7-definition-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">İmge:</strong> <span data-template-id="s7-definition" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Şairlerin dış dünyayı gözlemleyerek kendi hayal güçlerinde yeniden kurguladıkları, gerçekliğin sınırlarını aşan özgün anlatımlardır[cite: 17].</span></p>
+    <h3 data-template-id="s7-reasons-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Neden İmge Kullanılır?</h3>
+    <ul>
+     <li data-template-id="s7-reason-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Dilin yetersiz kaldığı anlarda duygu aktarımını güçlendirmek[cite: 18].</li>
+     <li data-template-id="s7-reason-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Dilin sınırlarını aşmak ve anlatımı sıradanlıktan kurtarmak[cite: 18].</li>
+     <li data-template-id="s7-reason-3" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Özgün ve estetik bir anlatım oluşturmak[cite: 18].</li>
+    </ul>
+    <h3 data-template-id="s7-activity-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Bu da Bir İmge mi? (İnteraktif Sınıf Oyunu)</h3>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s7-card-1" style="background: rgb(237, 242, 247);"><span data-template-id="s7-question-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">1. "Rüzgâr, pencereden içeri girip odanın duvarlarına şiirler fısıldıyordu."[cite: 18]</span>
+     <div class="answer canva-text" data-template-id="s7-answer-1" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;"> EVET. Rüzgârın şiir fısıldaması kişileştirme içeren özgün bir imgedir[cite: 18].</div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s7-card-2" style="background: rgb(237, 242, 247);"><span data-template-id="s7-question-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">2. "Bugün ders programında matematik vardı."[cite: 18]</span>
+     <div class="answer canva-text" data-template-id="s7-answer-2" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;"> HAYIR. Gerçek anlamıyla kullanılmış, imge barındırmayan bilgi cümlesidir[cite: 18].</div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s7-card-3" style="background: rgb(237, 242, 247);"><span data-template-id="s7-question-3" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">3. "Kalbim, zincirlerinden kurtulmak isteyen bir mahkûm gibi çarpıyordu."[cite: 18]</span>
+     <div class="answer canva-text" data-template-id="s7-answer-3" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;"> EVET. Duygu, hayal gücüyle özgün bir benzetmeyle anlatılmıştır[cite: 18].</div>
+    </div>
+   </div><!-- SLİDE 8 -->
+   <div class="slide canva-card" data-template-id="slide-8" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s8-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">8. Açık ve Örtük İleti</h2>
+    <div class="grid-2">
+     <div style="background: #eef9f5; padding: 15px; border-radius: 8px;" data-template-id="s8-open-panel" class="canva-panel">
+      <h3 data-template-id="s8-open-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Açık İleti</h3>
+      <p><span data-template-id="s8-open-line-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Anlatılmak istenen doğrudan, net ve açıktır[cite: 19].</span><br><span data-template-id="s8-open-line-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Tek bir anlam taşır, bilgi verir[cite: 19].</span><br><span data-template-id="s8-open-bullet" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• </span><em data-template-id="s8-open-example" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">"Su, 0 derecede donar."</em><span data-template-id="s8-open-cite" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">[cite: 19]</span></p>
+     </div>
+     <div style="background: #fff5f5; padding: 15px; border-radius: 8px;" data-template-id="s8-implicit-panel" class="canva-panel">
+      <h3 data-template-id="s8-implicit-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Örtük İleti</h3>
+      <p><span data-template-id="s8-implicit-line-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Anlam doğrudan söylenmez, sezdirilir[cite: 19].</span><br><span data-template-id="s8-implicit-line-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• İmge, söz sanatı ve yoruma açıklık vardır[cite: 19].</span><br><span data-template-id="s8-implicit-bullet" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• </span><em data-template-id="s8-implicit-example" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">"Gözleri, uzak bir acının sessizliğini taşıyordu."</em><span data-template-id="s8-implicit-cite" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">[cite: 19]</span></p>
+     </div>
+    </div>
+    <h3 data-template-id="s8-activity-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Açık mı Örtük mü? Etkinliği</h3>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s8-card-1" style="background: rgb(237, 242, 247);"><span data-template-id="s8-question-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">"Fotosentez, bitkilerin ışık enerjisini kimyasal enerjiye dönüştürmesidir."[cite: 20]</span>
+     <div class="answer canva-text" data-template-id="s8-answer-1" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">AÇIK İLETİ (Nesnel bilimsel bilgi)[cite: 20]</div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s8-card-2" style="background: rgb(237, 242, 247);"><span data-template-id="s8-question-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">"Onca insanın içinde, yalnızlığını kimsesiz bir sokak lambası gibi taşıyordu."[cite: 20]</span>
+     <div class="answer canva-text" data-template-id="s8-answer-2" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">ÖRTÜK İLETİ (Duygu sezdirilmiş, benzetme ve imge var)[cite: 20]</div>
+    </div>
+   </div><!-- SLİDE 9 -->
+   <div class="slide canva-card" data-template-id="slide-9" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s9-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">9. Edebî Sanatlar (Söz Sanatları)</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px;">
+     <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s9-card-1" style="background: rgb(237, 242, 247);"><strong data-template-id="s9-question-1" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Teşbih (Benzetme)</strong>
+      <div class="answer"><span data-template-id="s9-answer-1a" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Zayıf olanın güçlü olana benzetilmesidir. </span><i data-template-id="s9-answer-1b" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: italic; font-size: 16px;">"Ahmet krallar gibi yaşıyordu."</i><span data-template-id="s9-answer-1c" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">[cite: 21]</span>
+      </div>
+     </div>
+     <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s9-card-2" style="background: rgb(237, 242, 247);"><strong data-template-id="s9-question-2" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">İstiare (Eğretileme)</strong>
+      <div class="answer canva-text" data-template-id="s9-answer-2" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Benzeyen ya da kendisine benzetilenin tek kullanımı. Açık/Kapalı ayrılır[cite: 21].</div>
+     </div>
+     <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s9-card-3" style="background: rgb(237, 242, 247);"><strong data-template-id="s9-question-3" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Teşhis (Kişileştirme)</strong>
+      <div class="answer canva-text" data-template-id="s9-answer-3" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">İnsan dışı varlıklara insani özellikler yükleme[cite: 22].</div>
+     </div>
+     <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s9-card-4" style="background: rgb(237, 242, 247);"><strong data-template-id="s9-question-4" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">İntak (Konuşturma)</strong>
+      <div class="answer canva-text" data-template-id="s9-answer-4" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Kişileştirilen varlığın konuşturulmasıdır[cite: 22].</div>
+     </div>
+     <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s9-card-5" style="background: rgb(237, 242, 247);"><strong data-template-id="s9-question-5" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Tezat (Karşıtlık)</strong>
+      <div class="answer canva-text" data-template-id="s9-answer-5" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Zıt kavram/duyguların bir arada kullanımı. (Dost-Düşman)[cite: 23]</div>
+     </div>
+     <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s9-card-6" style="background: rgb(237, 242, 247);"><strong data-template-id="s9-question-6" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Hüsnütalil</strong>
+      <div class="answer canva-text" data-template-id="s9-answer-6" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Olayı gerçek dışı, güzel bir nedene bağlama[cite: 23].</div>
+     </div>
+     <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s9-card-7" style="background: rgb(237, 242, 247);"><strong data-template-id="s9-question-7" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Tecahüliarif</strong>
+      <div class="answer canva-text" data-template-id="s9-answer-7" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Bildiği bir şeyi bilmezlikten gelme sanatı[cite: 23].</div>
+     </div>
+     <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s9-card-8" style="background: rgb(237, 242, 247);"><strong data-template-id="s9-question-8" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Mübalağa (Abartma)</strong>
+      <div class="answer canva-text" data-template-id="s9-answer-8" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Manda yuva yapmış söğüt dalına...[cite: 24]</div>
+     </div>
+    </div>
+   </div><!-- SLİDE 10 -->
+   <div class="slide canva-card" data-template-id="slide-10" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s10-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">10. Metin Türleri: Deneme &amp; Mülakat</h2>
+    <div class="grid-2">
+     <div>
+      <h3 data-template-id="s10-essay-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Deneme</h3>
+      <p><span data-template-id="s10-essay-line-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Yazarın kesin sonuca ulaşma kaygısı gütmeden kendi kendisiyle konuşur gibi yazdığı samimi yazılardır[cite: 26].</span><br><span data-template-id="s10-essay-line-2a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Dünya edebiyatında ilk örneği: </span><strong data-template-id="s10-essay-line-2b" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Montaigne</strong><span data-template-id="s10-essay-line-2c" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">[cite: 26].</span><br><span data-template-id="s10-essay-line-3a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Türk edebiyatında ilk örnekler: Ahmet Haşim (</span><i data-template-id="s10-essay-line-3b" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">Bize Göre</i><span data-template-id="s10-essay-line-3c" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">)[cite: 26].</span></p>
+     </div>
+     <div>
+      <h3 data-template-id="s10-interview-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Mülakat</h3>
+      <p><span data-template-id="s10-interview-line-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Tanınmış kişilerle yapılan soru-cevap biçimindeki konuşmalardır[cite: 29].</span><br><span data-template-id="s10-interview-line-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• Cevaplar değiştirilmeden, yorum katılmadan aktarılır[cite: 29].</span><br><span data-template-id="s10-interview-line-3a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">• İlk yetkin örnek: Ruşen Eşref Ünaydın - </span><i data-template-id="s10-interview-line-3b" class="canva-text" style="font-weight: 400; font-style: italic; font-size: 16px;">"Diyorlar ki"</i><span data-template-id="s10-interview-line-3c" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">[cite: 29].</span></p>
+     </div>
+    </div>
+    <h3 data-template-id="s10-comparison-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Deneme vs. Makale Farkı</h3>
+    <table class="canva-table" data-template-id="s10-table" style="background: rgb(255, 255, 255);">
+     <tbody>
+      <tr>
+       <th data-template-id="s10-th-1" class="canva-text" style="background: rgb(44, 62, 80); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Deneme</th>
+       <th data-template-id="s10-th-2" class="canva-text" style="background: rgb(44, 62, 80); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Makale</th>
+      </tr>
+      <tr>
+       <td data-template-id="s10-td-1a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Kişisel, öznel düşünceler[cite: 26]</td>
+       <td data-template-id="s10-td-1b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Bilimsel, nesnel veriler[cite: 26]</td>
+      </tr>
+      <tr>
+       <td data-template-id="s10-td-2a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">İspat kaygısı yoktur[cite: 26]</td>
+       <td data-template-id="s10-td-2b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Düşünceyi kanıtlama zorunluluğu vardır[cite: 26]</td>
+      </tr>
+      <tr>
+       <td data-template-id="s10-td-3a" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Sohbet üslubu hâkimdir[cite: 26]</td>
+       <td data-template-id="s10-td-3b" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Ciddi ve öğretici üslup vardır[cite: 26]</td>
+      </tr>
+     </tbody>
+    </table>
+   </div><!-- SLİDE 11 -->
+   <div class="slide canva-card" data-template-id="slide-11" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s11-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">11. Ses Bilgisi</h2>
+    <h3 data-template-id="s11-vowels-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Ünlü (Sesli) Ses Olayları</h3>
+    <ul>
+     <li><strong data-template-id="s11-vowel-1-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Ünlü Düşmesi:</strong> <span data-template-id="s11-vowel-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">burun-u → burnu, akıl-ım → aklım[cite: 30]</span></li>
+     <li><strong data-template-id="s11-vowel-2-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Ünlü Türemesi:</strong> <span data-template-id="s11-vowel-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">bir-cik → biricik, dar-cık → daracık[cite: 30]</span></li>
+     <li><strong data-template-id="s11-vowel-3-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Ünlü Daralması:</strong> <span data-template-id="s11-vowel-3" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">oyna-yor → oynuyor, de-yecek → diyecek[cite: 30]</span></li>
+    </ul>
+    <h3 data-template-id="s11-consonants-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Ünsüz (Sessiz) Ses Olayları</h3>
+    <ul>
+     <li><strong data-template-id="s11-consonant-1-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Ünsüz Yumuşaması (p,ç,t,k → b,c,d,ğ):</strong> <span data-template-id="s11-consonant-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">kitap-ı → kitabı, ağaç-ı → ağacı[cite: 31]</span></li>
+     <li><strong data-template-id="s11-consonant-2-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Ünsüz Benzeşmesi / Sertleşme:</strong> <span data-template-id="s11-consonant-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">kitap-cı → kitapçı, yaş-ca → yaşça[cite: 31]</span></li>
+     <li><strong data-template-id="s11-consonant-3-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Ünsüz Türemesi:</strong> <span data-template-id="s11-consonant-3" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">hak-ı → hakkı, his-etmek → hissetmek[cite: 31]</span></li>
+     <li><strong data-template-id="s11-consonant-4-label" class="canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">Ünsüz Düşmesi:</strong> <span data-template-id="s11-consonant-4" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">küçük-cük → küçücük, sıcak-cık → sıcacık[cite: 31]</span></li>
+    </ul>
+    <h3 data-template-id="s11-activity-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Sınıf Pratiği (Cevabı Görmek İçin Tıkla)</h3>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s11-card" style="background: rgb(237, 242, 247);"><span data-template-id="s11-question" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">"Küçücük elleriyle bana sarıldı." cümlesindeki ses olayları nelerdir?[cite: 32]</span>
+     <div class="answer canva-text" data-template-id="s11-answer" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">küçük-cük → Ünsüz Düşmesi[cite: 31, 32].</div>
+    </div>
+   </div><!-- SLİDE 12 -->
+   <div class="slide canva-card" data-template-id="slide-12" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="s12-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">12. Noktalama İşaretleri ve Yazım Kuralları Pratiği</h2>
+    <h3 data-template-id="s12-activity-title" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 22px;">Akıllı Tahtada Düzeltelim!</h3>
+    <p data-template-id="s12-instructions" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Aşağıdaki cümlelerde yapılan hataları kontrol etmek için üzerine dokunun:</p>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s12-card-1" style="background: rgb(237, 242, 247);"><span data-template-id="s12-question-1" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">1. "Ankaraya yarın sabah yola çıkıyoruz."[cite: 38]</span>
+     <div class="answer"><span data-template-id="s12-answer-1a" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;"> DOĞRUSU: </span><strong data-template-id="s12-answer-1b" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">Ankara'ya</strong> <span data-template-id="s12-answer-1c" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">(Özel isimlere gelen çekim ekleri kesme işaretiyle ayrılır)[cite: 36, 38].</span>
+     </div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s12-card-2" style="background: rgb(237, 242, 247);"><span data-template-id="s12-question-2" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">2. "Okula geldinmi?" diye sordu.[cite: 38]</span>
+     <div class="answer"><span data-template-id="s12-answer-2a" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;"> DOĞRUSU: </span><strong data-template-id="s12-answer-2b" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">geldin mi?</strong> <span data-template-id="s12-answer-2c" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">(Soru eki 'mi' her zaman ayrı yazılır)[cite: 37, 38].</span>
+     </div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s12-card-3" style="background: rgb(237, 242, 247);"><span data-template-id="s12-question-3" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">3. "Bu başarı için Allah'a her gün şükür etmek gerekir."[cite: 38]</span>
+     <div class="answer"><span data-template-id="s12-answer-3a" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;"> DOĞRUSU: </span><strong data-template-id="s12-answer-3b" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">şükretmek</strong> <span data-template-id="s12-answer-3c" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">(Ses düşmesine uğrayan birleşik fiiller bitişik yazılır)[cite: 30, 37, 38].</span>
+     </div>
+    </div>
+    <div class="interactive-card canva-card" onclick="toggleAnswer(this)" data-template-id="s12-card-4" style="background: rgb(237, 242, 247);"><span data-template-id="s12-question-4" class="canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">4. "Saat 21.00'da buluşalım."[cite: 38]</span>
+     <div class="answer"><span data-template-id="s12-answer-4a" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;"> DOĞRUSU: </span><strong data-template-id="s12-answer-4b" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">21.00'de</strong> <span data-template-id="s12-answer-4c" class="canva-text" style="color: rgb(39, 174, 96); font-weight: 700; font-style: normal; font-size: 16px;">(Saat başlarında ek sıfırlara göre değil, saate göre getirilir)[cite: 36, 38].</span>
+     </div>
+    </div>
+   </div><!-- SLİDE 13: DEĞERLENDİRME -->
+   <div class="slide canva-card" data-template-id="slide-13" style="background: rgb(255, 255, 255);">
+    <h2 data-template-id="evaluation-title" class="canva-text" style="color: rgb(231, 76, 60); font-weight: 700; font-style: normal; font-size: 32px;">Tema Değerlendirmesi</h2>
+    <p data-template-id="evaluation-subtitle" class="canva-text" style="color: rgb(52, 152, 219); font-weight: 700; font-style: normal; font-size: 18px;">10 farklı teknikle kendini dene</p>
+    <div class="evaluation-grid">
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-1" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">1. Çoktan seçmeli: Edebiyatın temel malzemesi nedir?</div>
+      <div class="evaluation-options">
+       <div class="evaluation-option canva-text">
+        A) Renkler
+       </div>
+       <div class="evaluation-option canva-text">
+        B) Sözcükler
+       </div>
+       <div class="evaluation-option canva-text">
+        C) Sayılar
+       </div>
+       <div class="evaluation-option canva-text">
+        D) Sesler
+       </div>
+      </div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-1" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-1" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: B) Sözcükler. Açıklama: Edebiyatın temel malzemesi dildir ve dil sözcüklerle estetik bir biçim kazanır.</div>
+     </div>
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-2" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">2. Doğru / Yanlış: Edebiyat yalnızca bilimdir.</div>
+      <div class="evaluation-options">
+       <div class="evaluation-option canva-text">
+        Doğru
+       </div>
+       <div class="evaluation-option canva-text">
+        Yanlış
+       </div>
+      </div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-2" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-2" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: Yanlış. Açıklama: Edebiyat, bilim yönü bulunan; aynı zamanda duygu ve düşünceleri estetik biçimde sunan bir sanat alanıdır.</div>
+     </div>
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-3" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">3. Eşleştirme: Bilim dallarını ilgili açıklamalarla eşleştiriniz.</div>
+      <div class="matching-grid">
+       <div class="answer-field canva-text">
+        1. Tarih
+       </div>
+       <div class="answer-field canva-text">
+        A. Karakterlerin iç dünyası
+       </div>
+       <div class="answer-field canva-text">
+        2. Psikoloji
+       </div>
+       <div class="answer-field canva-text">
+        B. Toplumun yapısı
+       </div>
+       <div class="answer-field canva-text">
+        3. Sosyoloji
+       </div>
+       <div class="answer-field canva-text">
+        C. Dönemlerin ruhu
+       </div>
+       <div class="answer-field canva-text">
+        4. Felsefe
+       </div>
+       <div class="answer-field canva-text">
+        D. Varoluş sorgulamaları
+       </div>
+      </div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-3" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-3" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: 1-C, 2-A, 3-B, 4-D. Açıklama: Edebiyat; tarih, psikoloji, sosyoloji ve felsefeyle karşılıklı ilişki içindedir.</div>
+     </div>
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-4" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">4. Boşluk doldurma: “Edebiyat” sözcüğü Arapça “_____” kökünden gelir.</div>
+      <div class="answer-field canva-text">
+       Cevabın: __________
+      </div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-4" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-4" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: edep. Açıklama: Edep; ahlak, terbiye ve nezaket anlamlarını taşır.</div>
+     </div>
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-5" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">5. Metin yorumlama: “Güneş, ufkun ardına kızıl bir hüzün perdesi çekiyordu.” cümlesi hangi söyleyişe örnektir?</div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-5" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-5" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: Edebî söyleyiş. Açıklama: İmge ve çağrışım içeren bu cümle, günlük söyleyişten farklı olarak estetik bir anlatım kurar.</div>
+     </div>
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-6" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">6. Söz sanatı tanıma: “Rüzgâr, pencereden içeri girip odanın duvarlarına şiirler fısıldıyordu.” cümlesinde hangi sanat vardır?</div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-6" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-6" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: Teşhis (kişileştirme). Açıklama: İnsanlara özgü fısıldama eylemi rüzgâra aktarılmıştır.</div>
+     </div>
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-7" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">7. Açık / örtük ileti: “Fotosentez, bitkilerin ışık enerjisini kimyasal enerjiye dönüştürmesidir.” cümlesi hangi ileti türüdür?</div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-7" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-7" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: Açık ileti. Açıklama: Bilgi doğrudan, net ve tek anlamlı biçimde verilmiştir.</div>
+     </div>
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-8" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">8. Sınıflandırma: “kitabı”, “kitapçı” ve “hakkı” örneklerindeki ses olaylarını ayırt ediniz.</div>
+      <div class="classification-grid">
+       <div class="answer-field canva-text">
+        kitabı
+       </div>
+       <div class="answer-field canva-text">
+        __________
+       </div>
+       <div class="answer-field canva-text">
+        kitapçı
+       </div>
+       <div class="answer-field canva-text">
+        __________
+       </div>
+       <div class="answer-field canva-text">
+        hakkı
+       </div>
+       <div class="answer-field canva-text">
+        __________
+       </div>
+      </div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-8" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-8" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: kitabı → ünsüz yumuşaması; kitapçı → ünsüz benzeşmesi / sertleşme; hakkı → ünsüz türemesi. Açıklama: Ek geldiğinde kökte veya ekte oluşan ses değişimleri bu olayları gösterir.</div>
+     </div>
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-9" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">9. Kısa cevaplı karşılaştırma: Deneme ile makale arasındaki temel fark nedir?</div>
+      <div class="answer-field canva-text">
+       Cevabını kısaca yaz: __________________________________
+      </div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-9" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-9" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: Deneme öznel düşüncelere dayanır ve ispat kaygısı taşımaz; makale nesnel, kanıta dayalı ve öğretici bir yazıdır. Açıklama: İki türü ayıran temel ölçüt anlatımın kişisel mi kanıtlayıcı mı olduğudur.</div>
+     </div>
+     <div class="evaluation-card canva-card" onclick="toggleAnswer(this)">
+      <div data-template-id="q13-10" class="evaluation-question canva-text" style="font-weight: 700; font-style: normal; font-size: 16px;">10. Yazım ve noktalama düzeltme: “Ankaraya yarın sabah yola çıkıyoruz. Okula geldinmi?” cümlelerini düzeltiniz.</div>
+      <div class="answer-field canva-text">
+       Düzeltilmiş hâli: __________________________________
+      </div><button type="button" class="btn show-answer canva-button" data-template-id="show-13-10" onclick="event.stopPropagation(); toggleAnswer(this.parentElement)" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Cevabı göster</button>
+      <div data-template-id="a13-10" class="evaluation-answer canva-text" style="font-weight: 400; font-style: normal; font-size: 16px;">Doğru cevap: “Ankara’ya yarın sabah yola çıkıyoruz. Okula geldin mi?” Açıklama: Özel ada gelen ek kesme işaretiyle ayrılır; soru eki “mi” ayrı yazılır.</div>
+     </div>
+    </div>
+   </div>
+  </main><!-- Navigation Footer -->
+  <footer class="controls canva-footer" data-template-id="navigation-footer" style="background: rgb(255, 255, 255);">
+   <button class="btn canva-button" id="prevBtn" onclick="changeSlide(-1)" data-template-id="previous-button" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;"> Önceki</button> <span style="font-weight: 700; color: rgb(44, 62, 80); font-style: normal; font-size: 16px;" data-template-id="keyboard-hint" class="canva-text">Klavye yön tuşlarını (← →) kullanabilirsiniz</span> <button class="btn canva-button" id="nextBtn" onclick="changeSlide(1)" data-template-id="next-button" style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Sonraki </button>
+  </footer>
+  <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        function updateSlideDisplay() {
+            slides.forEach((slide, index) => {
+                slide.classList.toggle('active', index === currentSlide);
+            });
+            document.getElementById('slideCounter').textContent = `Slayt ${currentSlide + 1} / ${totalSlides}`;
+            document.getElementById('prevBtn').disabled = currentSlide === 0;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+        }
+
+        function changeSlide(direction) {
+            currentSlide += direction;
+            if (currentSlide < 0) currentSlide = 0;
+            if (currentSlide >= totalSlides) currentSlide = totalSlides - 1;
+            updateSlideDisplay();
+        }
+
+        function toggleAnswer(element) {
+            const answer = element.querySelector('.answer');
+            if (answer) {
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none';
+                } else {
+                    answer.style.display = 'block';
+                }
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+                changeSlide(1);
+            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                changeSlide(-1);
+            }
+        });
+
+        updateSlideDisplay();
+    </script>
+ 
+</body></html>
